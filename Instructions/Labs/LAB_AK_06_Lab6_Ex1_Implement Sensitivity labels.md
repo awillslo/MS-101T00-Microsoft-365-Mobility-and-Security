@@ -139,9 +139,9 @@ In this exercise you will create a Sensitivity Label and add it to the default p
 
 31. On the **Review your settings and finish** page, select **Create label**.
 
-32. On the **Your sensitivity label was created** page, select **Done**.
+32. On the **Your sensitivity label was created** page, select **Done**.  Click the **X** in the new pane that opens to dismiss the Publish window.
 
-33. Now it's time to publish the **PII** label. On the **Information protection** window, the **Labels** tab is displayed by default. In the list of labels, hover your mouse over the **PII** label that you just created, and then select the radio button that appears to the left of the **PII** label. 
+33. Now it's time to publish the **PII** label. On the **Information protection** window, the **Labels** tab is displayed by default. In the list of labels, hover your mouse over the **PII** label that you just created, and then select the check box that appears to the left of the **PII** label. 
 
 34. Select the **Publish label** option that appears in the menu bar above the list of labels. This initiates a **Create policy** wizard.
 
@@ -153,13 +153,13 @@ In this exercise you will create a Sensitivity Label and add it to the default p
 
 38. On the **Publish to users and groups** page, select **Next**.
 
-39. On the **Policy settings** page, select the **Users must proide a justification to remove a label or lower its classification** check box, and then select **Next**. 
+39. On the **Policy settings** page, select the **Users must provide a justification to remove a label or lower its classification** check box, and then select **Next**. 
 
 40. On the **Apply a default label to documents** page, select the **Apply this default label to documents** field. Select **PII** in the drop-down menu that appears, and then select **Next**.
 
 41. On the **Apply a default label to emails** page, select the **Apply this default label to emails** field. Select **PII** in the drop-down menu that appears, and then select **Next**.
 
-42. On the **Apply a default label to Power BI content (preview)** page, select the **Apply this default label to Power BI content** field. Select **PII** in the drop-down menu that appears, and then select **Next**.
+42. On the **Apply a default label to Power BI content** page, select the **Apply this default label to Power BI content** field. Select **PII** in the drop-down menu that appears, and then select **Next**.
 
 43. On the **Name your policy** page, enter **PII Policy** in the **Name** field, and then enter (or copy and paste) the following description for this sensitivity label policy: **The purpose of this policy is to detect sensitive information such as ABA bank routing numbers and US social security numbers in emails and documents, and to encrypt this information when it's discovered. The user must provide an explanation for removing the classification label.** Select **Next**.
 
