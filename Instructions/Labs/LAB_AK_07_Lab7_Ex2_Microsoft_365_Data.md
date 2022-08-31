@@ -24,15 +24,17 @@ In this exercise, you will log into Microsoft 365 on LON-CL2 as Joni Sherman, an
 
     Since you do not have time in this lab to search all three locations, select the toggle switch for the first group of locations to turn it **On**, but leave the other two groups turned **Off**, and then select **Next**.
 
-7. On the **Condition card** page, enter **IP address** into the **Keywords** field and then select **Finish**.
+7. On the **Condition card** page, enter **IP address** into the **Keywords** field and then select **Next**.
 
-8. On the **Searches** tab, the **Search query** process will automatically start. In the **Search query** pane on the left, scroll to the bottom, where the **Status** of the query is displayed. Wait for the status to show **Completed**. <br/>
+8. Click **Submit**
+
+9. On the **Searches** tab, the **Search query** process will automatically start. In the **Search query** pane on the left, scroll to the bottom, where the **Status** of the query is displayed. Wait for the status to show **Completed**. <br/>
 
     **Note:** It may take a couple of minutes for the query to run and the data to be displayed in the right-hand pane. When the content search finishes, you will see all mailbox items that were created for the sensitive information test of your custom DLP policy related to IP addresses. 
 
-9. Close the **Content search** tab in your browser.
+10. Close the **Content search** tab in your browser.
 
-10. Leave the Security and Compliance Center tab open and continue with the next task.
+11. Leave the Security and Compliance Center tab open and continue with the next task.
 
 You have successfully performed a content search for a specific key word across all locations of your tenant.
  
@@ -45,9 +47,9 @@ In this task, you will create an eDiscovery case, add an In-Place Hold to the ca
 
 2. The **Office 365 Security and Compliance Center** should still be open in a tab in Microsoft Edge. If so, select that tab now. If not, then enter the following URL in the address bar: **https://protection.office.com.** 
 
-3. In the **Security and Compliance Center**, in the left-hand navigation pane, select **eDiscovery**, and then under it, select **Core**.
+3. In the **Security and Compliance Center**, in the left-hand navigation pane, select **eDiscovery**, and then under it, select **eDiscovery**.
 
-4. On the **eDiscovery** window, select the **(+) Create a case** button that appears above the list of cases.
+4. On the **eDiscovery (Standard)** window, select the **(+) Create a case** button that appears above the list of cases.
 
 5. In the **New case** window, enter **IP Address Violation** in the **Case name** field and select **Save**.
 
@@ -73,11 +75,11 @@ In this task, you will create an eDiscovery case, add an In-Place Hold to the ca
 
 16. On the **Query conditions** page, enter **IP address** into the **Keywords** box and then select **Next**.
 
-17. On the **Review your settings** page, review the values and select **Edit** next to any that need to be modified. When you are satisfied with the settings, select the **Create this hold** button.
+17. On the **Review your settings** page, review the values and select **Edit** next to any that need to be modified. When you are satisfied with the settings, select the **Submit** button.
 
 18. On the **IP address violation - Content** window, select **Done**.
 
-19. This returns you to the **Holds** tab on the **IP Address violation &gt; Core ED** page. Select the **Searches** tab from the top menu.
+19. This returns you to the **Holds** tab on the **eDiscovery (Standard) &gt; IP Address Violation** page. Select the **Searches** tab from the top menu.
 
 20. On the **Searches** tab, select the **+New search** button. Enter **IP Address Violation - Search** in the **Name and description** field. Click **Next**.
 
