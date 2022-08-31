@@ -26,7 +26,7 @@ In this lesson you will create a WIP policy and assign to it the **WIP Users** g
 
 9. In the **Apps | Overview** page, in the middle pane under the **Policy** group, select **App protection policies**.
 
-10. On the **Apps | App protection policies** page, select **+Create Policy** on the menu bar, and then in the drop-down menu that appears, select **Windows 10 and later**.
+10. On the **Apps | App protection policies** page, select **+Create Policy** on the menu bar, and then in the drop-down menu that appears, select **Windows Information Protection**.
 
 11. In the **Create policy** window, the steps to create a policy are displayed at the top of the page. You are currently in step **1 - Basics**. Enter the following information and then select **Next**:
 
@@ -46,7 +46,7 @@ In this lesson you will create a WIP policy and assign to it the **WIP Users** g
 
 	- Windows Information Protection mode: **Block**
 	
-	- Corporate identity: verify that it displays **xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider) and then select **OK.**
+	- Corporate identity: verify that it displays **xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider)
 
 14. In the **Create policy** window, you are now in step **4 - Advanced settings**. Do not change any of the default settings, so select **Next**.
 
@@ -60,7 +60,7 @@ In this lesson you will create a WIP policy and assign to it the **WIP Users** g
 
 18. Leave your browser and all its tabs open for the next lab.
 
-You have now created an **App protection policy** (which is a Windows Information Protection policy) that protects files in Microsoft 365 Apps for enterprise for users in the **WIP Users** group that have enrolled Windows 10 devices.
+You have just created an **App protection policy** (which is a Windows Information Protection policy) that protects files in Microsoft 365 Apps for enterprise for users in the **WIP Users** group that have enrolled Windows devices.
 
 
 ### Task 2 – Use Windows Information Protection
